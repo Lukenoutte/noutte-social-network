@@ -1,0 +1,33 @@
+  
+:root {
+    font-size: 60%;
+
+    --color-primary: #5BEFC3;
+    --color-input-border: #E3E3E3;
+    --color-white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root, .App{
+    height: 100vh;
+    
+}
+
+body,
+button,
+input,
+textarea{
+    font: 500 1.6rem 'Quicksand', sans-serif;
+    color: var(--color-text-base);
+}
+
+@media(min-width: 700px){
+    :root{
+        font-size: 62.5%;
+    }
+}
