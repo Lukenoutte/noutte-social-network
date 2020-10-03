@@ -2,9 +2,12 @@
 :root {
     font-size: 60%;
 
-    --color-primary: #5BEFC3;
-    --color-input-border: #E3E3E3;
+    --color-primary: #77d9bb;
+    --color-primary-dark: #74d4b7;
+    --color-input-border: #e0e0e0;
     --color-white: #fff;
+    --white-little-dark:#fcfcfc;
+    --almost-black: #515151;
 }
 
 * {
@@ -23,7 +26,7 @@ button,
 input,
 textarea{
     font: 500 1.6rem 'Quicksand', sans-serif;
-    color: var(--color-text-base);
+    color: var(--almost-black);
 }
 
 @media(min-width: 700px){

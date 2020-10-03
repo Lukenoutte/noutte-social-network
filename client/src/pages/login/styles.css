@@ -1,9 +1,9 @@
-.login-container{
+.sign-container{
    height: 100%;
    display: flex;
    flex-direction: row;
 }
-.left-container{
+.inputs-container-sign{
     width: 65%;
     height: 100%;
     display: flex;
@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 
-.right-container{
+.navegation-container-sign{
     width: 35%;
     background-color: var(--color-primary);
     display: flex;
@@ -21,12 +21,12 @@
     flex-direction: column;
 }
 
-.left-container h1{
+.inputs-container-sign h1{
     margin-bottom: 3rem;
     color: var(--color-primary);
 }
 
-.left-container input{
+.inputs-container-sign input{
     width: 30rem;
     height: 5rem;
     border-radius: 1rem;
@@ -35,14 +35,14 @@
     border: 2px solid var(--color-input-border);
 }
 
-.left-container input:focus{
+.inputs-container-sign input:focus{
     border: 2px solid var(--color-primary);
 }
-.left-container input::placeholder{
+.inputs-container-sign input::placeholder{
     color: var(--color-input-border);
 }
 
-.left-container button{
+.inputs-container-sign button{
     width: 15rem;
     height: 5rem;
     border-radius: 3rem;
@@ -55,13 +55,15 @@
 }
 
 
-
-.right-container h1{
+.inputs-container-sign button:hover{
+    background-color: var(--color-primary-dark);
+}
+.navegation-container-sign h1{
     color: var(--color-white);
     margin-bottom: 3rem;
 }
 
-.right-container a{
+.navegation-container-sign a{
     width: 15rem;
     height: 5rem;
     border-radius: 3rem;
@@ -72,4 +74,8 @@
     justify-content: center;
     align-items: center;
     font-weight: bolder;
+}
+
+.navegation-container-sign a:hover{
+    background-color: var(--white-little-dark);
 }
