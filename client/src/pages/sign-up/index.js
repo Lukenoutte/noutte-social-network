@@ -1,5 +1,6 @@
 
 import React from 'react';
+import '../../assets/styles/sign-styles.css';
 
 function SignUp() {
     return (<div className="sign-container"> 
@@ -13,11 +14,13 @@ function SignUp() {
             <div className="inputs-container-sign">
 
             <h1>Create Account</h1>
-            <input type="text" placeholder="Name"/><br/>    
-            <input type="text" placeholder="E-mail"/><br/>    
-            <input type="password" placeholder="Password" /> <br/>
-            <input type="password" placeholder="Confirm Password" /> <br/>
-            <button>Sign up</button>
+            <form action="/feed">
+            <input type="text" placeholder="Name"/>  
+            <input type="text" placeholder="E-mail"/>   
+            <input type="password" placeholder="Password" /> 
+            <input type="password" placeholder="Confirm Password" /> 
+            <button type="submit">Sign up</button>
+            </form>
             </div>
      </div>)
 }
