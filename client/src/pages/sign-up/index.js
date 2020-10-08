@@ -3,7 +3,7 @@ import React from 'react';
 import '../../assets/styles/sign-styles.css';
 
 function SignUp() {
-    return (<div className="sign-container"> 
+    return (<div className="sign-container sign-up"> 
             <div className="navegation-container-sign">
 
             <h1>Welcome back!</h1>
