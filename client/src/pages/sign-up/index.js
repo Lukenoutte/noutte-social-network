@@ -1,13 +1,14 @@
 
 import React from 'react';
 import '../../assets/styles/sign-styles.css';
+import {Link} from 'react-router-dom';
 
 function SignUp() {
     return (<div className="sign-container sign-up"> 
             <div className="navegation-container-sign">
 
             <h1>Welcome back!</h1>
-            <a href="/">Sign in</a> <br/>
+            <Link to="/">Sign in</Link> <br/>
 
             </div>
 

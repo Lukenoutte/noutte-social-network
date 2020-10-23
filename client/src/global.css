@@ -1,13 +1,15 @@
   
 :root {
     font-size: 60%;
-
-    --color-primary: #77d9bb;
-    --color-primary-dark: #74d4b7;
-    --color-input-border: #e0e0e0;
-    --color-white: #fff;
-    --white-little-dark:#fcfcfc;
-    --almost-black: #515151;
+    --primary-color: #e3bb44;
+    --primary-color-hover: #e3c25f;
+    --secundary-color: #1C1C24;   
+    --color-input-background: #2D2D3A;
+    --background-main: #131419;
+    --almost-white:#fcfcfc;
+    --placeholder-white:#cccccc;
+    --button-color: #2D2D3A;
+    --button-color-hover: #404052;
 }
 
 * {
@@ -16,9 +18,13 @@
     box-sizing: border-box;
 }
 
-html, body, #root, .App{
+html, body, #root, .app{
     height: 100vh;
     
+}
+
+.app{
+    background-color: var(--background-main);
 }
 
 body,
@@ -26,7 +32,7 @@ button,
 input,
 textarea{
     font: 500 1.6rem 'Quicksand', sans-serif;
-    color: var(--almost-black);
+    color: var(--almost-white);
 }
 
 @media(min-width: 700px){

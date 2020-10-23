@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/styles/sign-styles.css';
+import {Link} from 'react-router-dom';
 
 function SignIn() {
     return (<div className="sign-container"> 
@@ -14,7 +15,7 @@ function SignIn() {
         <div className="navegation-container-sign">
 
             <h1>Hello, friend!</h1>
-            <a href="/signup">Sign up</a> 
+            <Link to="/signup">Sign up</Link> 
             
         </div>
      </div>)
