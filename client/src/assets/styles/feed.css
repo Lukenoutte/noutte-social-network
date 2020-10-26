@@ -1,3 +1,12 @@
+.feed-container{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 600px;
+}
+
 .feed-container header {
   height: 80px;
   width: 100%;
@@ -6,7 +15,7 @@
   align-items: center;
   justify-content: center;
   border-bottom: 2px solid var(--border-header-color);
-
+  margin-bottom: 40px;
 }
 
 .feed-container header .logo {
@@ -22,11 +31,12 @@
 }
 
 .center-container {
-  width: 80%;
+  width: 90%;
+
 }
 
 .center-container-header {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,8 +44,43 @@
   
 }
 
-.feed-container .main-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+
+
+.feed-container .before-nouttes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.feed-container .before-nouttes button{
+    width: 150px;
+    height: 50px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.feed-container .before-nouttes button:hover{
+    background-color: var(--button-color-hover);
+}
+.feed-container .nouttes-container{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin-bottom: 50px;
+
+}
+
+.feed-container .nouttes-container .noutte{
+  width: 290px;
+  height: 360px;
+  background: var(--secundary-color);
+  border-radius: 15px;
+  margin-right: 25px;
+  margin-top: 25px;
 }

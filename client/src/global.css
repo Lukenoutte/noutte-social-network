@@ -18,15 +18,18 @@
   box-sizing: border-box;
 }
 
-html,
-body,
-#root,
-.app {
-  height: 100vh;
-}
+  html,
+  body,
+  #root,
+  .app
+  {
+    min-height: 100vh;
+
+  }
 
 .app {
   background-color: var(--background-main);
+
 }
 
 body,
@@ -37,8 +40,10 @@ textarea {
   color: var(--almost-white);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   :root {
     font-size: 62.5%;
   }
+
+
 }

@@ -6,17 +6,27 @@ function Feed() {
     <div className="feed-container">
       <header>
         <div className="center-container-header">
-          <div className="logo">.</div>
-          <div className="icon-profile">.</div>
+          <div className="logo"></div>
+          <div className="icon-profile"></div>
         </div>
       </header>
-      <div className="main-container">
+     
         <div className="center-container">
-          <h1>Feed</h1>
-          <a href="/profile">Profile</a> <br />
-          <a href="/">Logout</a>
+          <div className="before-nouttes">
+            <h1>Nouttes</h1>
+            <button> + Create Noutte </button>
+          </div>
+          <div className="nouttes-container">
+
+          <div className="noutte"></div>
+          <div className="noutte"></div>
+          <div className="noutte"></div>
+          <div className="noutte"></div>
+          <div className="noutte"></div>
+          <div className="noutte"></div>
+          </div>
         </div>
-      </div>
+      
     </div>
   );
 }
