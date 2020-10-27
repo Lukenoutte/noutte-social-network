@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/styles/feed.css";
+import CardNoutte from '../components/CardNoutte';
 
 function Feed() {
   return (
@@ -18,12 +19,14 @@ function Feed() {
           </div>
           <div className="nouttes-container">
 
-          <div className="noutte"></div>
-          <div className="noutte"></div>
-          <div className="noutte"></div>
-          <div className="noutte"></div>
-          <div className="noutte"></div>
-          <div className="noutte"></div>
+          <CardNoutte/>
+          <CardNoutte/>
+          <CardNoutte/>
+          <CardNoutte/>
+          <CardNoutte/>
+          <CardNoutte/>
+          <CardNoutte/>
+ 
           </div>
         </div>
       

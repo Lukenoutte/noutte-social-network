@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../../assets/styles/sign-styles.css';
+import '../../assets/styles/sign_styles.css';
 import {Link} from 'react-router-dom';
 
 function SignUp() {

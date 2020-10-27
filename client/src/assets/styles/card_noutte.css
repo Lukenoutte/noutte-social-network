@@ -1,0 +1,60 @@
+.noutte {
+  width: 290px;
+  height: 360px;
+  background: var(--secundary-color);
+  border-radius: 15px;
+  margin-right: 12px;
+  margin-top: 12px;
+  padding: 20px;
+}
+
+.noutte .top-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.noutte .top-container .icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #FFF;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.noutte .top-container .name-wrapper p{
+  margin-top: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.noutte .top-container .name-wrapper span{
+    font-size: 13px;
+    color: var(--font-color-secondary);
+}
+
+
+.noutte .image-container{
+    width: 250px;
+    height: 180px;
+    background:  #FFF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.noutte .button-wrapper button{
+    width: 250px;
+    height: 50px;
+    background: var(--primary-color);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.noutte .button-wrapper button:hover{
+    background: var(--primary-color-hover);
+}
