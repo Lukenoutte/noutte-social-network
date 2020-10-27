@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route} from "react-router-dom";
-import SignIn from "./pages/sign-in";
-import SignUp from "./pages/sign-up";
+import SignIn from "./pages/sign_in";
+import SignUp from "./pages/sign_up";
 import Feed from "./pages/feed";
 import Profile from "./pages/profile";
 
