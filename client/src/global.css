@@ -41,6 +41,12 @@ textarea {
   color: var(--almost-white);
 }
 
+.center-container {
+  width: 90%;
+  min-height: 92vh;
+}
+
+
 @media (min-width: 800px) {
   :root {
     font-size: 62.5%;
