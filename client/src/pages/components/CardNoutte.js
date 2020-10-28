@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/styles/card_noutte.css";
+import "../../assets/styles/components/card_noutte.css";
 
 export default function CardNoutte() {
   return (

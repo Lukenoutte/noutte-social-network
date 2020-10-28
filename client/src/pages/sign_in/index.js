@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/sign_styles.css';
+import '../../assets/styles/pages/sign_styles.css';
 import {Link} from 'react-router-dom';
 
 function SignIn() {

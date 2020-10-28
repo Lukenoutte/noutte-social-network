@@ -1,17 +1,13 @@
 import React from "react";
-import "../../assets/styles/feed.css";
+import "../../assets/styles/pages/feed.css";
 import CardNoutte from "../components/CardNoutte";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function Feed() {
   return (
     <div className="feed-container">
-      <header>
-        <div className="center-container-header">
-          <div className="logo"></div>
-          <div className="icon-profile"></div>
-        </div>
-      </header>
-
+      <Header />
       <div className="center-container">
         <div className="before-nouttes">
           <h1>Nouttes</h1>
@@ -26,10 +22,11 @@ function Feed() {
             <CardNoutte />
             <CardNoutte />
             <CardNoutte />
-          
+            <CardNoutte />
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

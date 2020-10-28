@@ -7,42 +7,13 @@
   min-height: 600px;
 }
 
-.feed-container header {
-  height: 80px;
-  width: 100%;
-  background-color: var(--secundary-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 2px solid var(--border-header-color);
-  margin-bottom: 40px;
-}
 
-.feed-container header .logo {
-  background-color: var(--primary-color);
-  height: 30px;
-  width: 60px;
-  cursor: pointer;
-}
-.feed-container header .icon-profile {
-  height: 40px;
-  width: 40px;
-  background-color: #fff;
-  border-radius: 50%;
-  cursor: pointer;
-}
 
 .center-container {
   width: 90%;
+  min-height: 92vh;
 }
 
-.center-container-header {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .feed-container .before-nouttes {
   display: flex;
@@ -79,6 +50,7 @@
   display: flex;
   justify-content: center;
 }
+
 
 
 
