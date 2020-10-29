@@ -8,7 +8,7 @@ function Feed() {
   return (
     <div className="feed-container">
       <Header />
-      <div className="center-container">
+      <div className="centralize-things-container">
         <div className="before-nouttes">
           <h1>Nouttes</h1>
           <button> + Create Noutte </button>
