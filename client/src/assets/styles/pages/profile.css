@@ -112,6 +112,11 @@
   margin-bottom: 50px;
   margin-right: 60px;
 }
+
+.profile-container .middle-container .inputs-wrapper{
+  width: min-content;
+}
+
 .profile-container .middle-container p {
   color: var(--font-color-secondary);
   font-size: 13px;
@@ -127,28 +132,72 @@
   border: none;
   background: var(--color-input-background);
   padding: 0px 15px;
+  font-weight: bold;
 }
 
 .profile-container .middle-container input:focus {
   border: 2px solid var(--primary-color);
 }
 
-.profile-container .right-container {
-  width: 30%;
-  padding-top: 60px;
+.profile-container .middle-container button {
+  font-size: 13px;
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
 }
 
-.profile-container .right-container p {
+
+.profile-container .middle-container button:hover {
+    background: var(--primary-color);
+}
+
+.profile-container .right-container {
+  width: 30%;
+  padding-top: 50px;
+}
+
+.right-container .statistics-wrapper span{
   color: var(--font-color-secondary);
-  font-size: 13px;
-  margin-bottom: 10px;
+  font-size: 13px;  
+ 
 }
 
 .profile-container .right-container .statistics-wrapper {
+  width: min-content;
+}
+
+.profile-container .right-container .statistic {
   width: 340px;
   height: 90px;
   background: var(--secundary-color);
   border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+
+  margin-top: 10px;
+}
+
+.statistics-wrapper .statistic .icon-statistics{
+    height: 50px;
+    width: 50px;
+    background: #FFF;
+    border-radius: 15px;
+    margin-right: 10px;
+    align-self: center;
+}
+.statistics-wrapper .statistic .statistics-information{
+   margin-top: 20px;
+}
+.statistic .statistics-information p {
+    
+    font-size: 20px;
 }
 
 @media (max-width: 1250px) {
@@ -174,7 +223,6 @@
     flex-direction: column;
     margin-bottom: 50px;
   }
-
 
   .profile-container .middle-container {
     margin-right: 0px;

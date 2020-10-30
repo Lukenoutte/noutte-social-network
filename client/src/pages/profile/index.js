@@ -51,9 +51,9 @@ function Profile() {
           </div>
         </div>
         <div className="middle-container">
+          <div className="inputs-wrapper"> 
           <p>Name</p>
           <input type="text" />
-
           <p>E-mail</p>
           <input type="text" />
 
@@ -64,12 +64,37 @@ function Profile() {
           <input type="password" />
           <p>Confirm New Password</p>
           <input type="password" />
+          <button>Save changes</button>
+          </div>
         </div>
 
         <div className="right-container">
-          <p>Personal Statistics</p>
           <div className="statistics-wrapper">
-            
+          <span>Personal Statistics</span>
+          <div className="statistic">
+            <div className="icon-statistics"></div>
+            <div className="statistics-information">
+            <p>999</p>
+            <span>Follows</span>
+            </div>
+          </div>
+
+          <div className="statistic">
+            <div className="icon-statistics"></div>
+            <div className="statistics-information">
+            <p>999</p>
+            <span>Follows</span>
+            </div>
+          </div>
+
+          <div className="statistic">
+            <div className="icon-statistics"></div>
+            <div className="statistics-information">
+            <p>999</p>
+            <span>Follows</span>
+            </div>
+          </div>
+          
           </div>
         </div>
       </div>
