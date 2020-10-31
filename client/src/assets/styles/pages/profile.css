@@ -26,8 +26,8 @@
 .profile-container .left-container .profile-pic-wrapper {
   margin-bottom: 30px;
   height: 360px;
-  width: 290px;
-  max-width: 290px;
+  width: 100%;
+  max-width: 500px;
   background: var(--secundary-color);
   border-radius: 15px;
   padding: 15px;
@@ -64,8 +64,9 @@
 }
 
 .left-container .social-wrapper .social-media {
-  width: 290px;
+  width: 100%;
   height: 60px;
+  max-width: 500px;
   background: var(--secundary-color);
   border-radius: 15px;
   margin-bottom: 20px;

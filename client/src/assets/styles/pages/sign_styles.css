@@ -55,16 +55,19 @@
     font-weight: bold;
 }
 
-.inputs-container-sign button{
+.inputs-container-sign a{
     width: 15rem;
     height: 5rem;
     border-radius: 15px;
     background-color: var(--primary-color);
-    border: none;
+
     color: var(--color-white);
-    cursor: pointer;
+   
     font-weight: bolder;
-    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .inputs-container-sign form{
     display: flex;
@@ -72,7 +75,7 @@
     align-items: center;
 }
 
-.inputs-container-sign button:hover{
+.inputs-container-sign a:hover{
     background-color: var(--primary-color-hover);
 }
 .navegation-container-sign h1{
@@ -99,6 +102,13 @@
 
 .sign-up-navegation{
     margin-left: 3%;
+}
+
+.sign-container .logo a{
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 @media(max-width: 768px){
