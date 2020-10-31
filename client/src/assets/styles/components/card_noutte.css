@@ -22,10 +22,12 @@
   cursor: pointer;
 }
 
-.noutte .top-container .name-wrapper p{
+.noutte .top-container .name-wrapper a{
   margin-top: 5px;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
+  color: #FFF;
 }
 
 .noutte .top-container .name-wrapper span{

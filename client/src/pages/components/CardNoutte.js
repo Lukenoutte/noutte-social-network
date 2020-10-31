@@ -1,13 +1,14 @@
 import React from "react";
 import "../../assets/styles/components/card_noutte.css";
+import {Link} from 'react-router-dom';
 
 export default function CardNoutte() {
   return (
     <div className="noutte">
       <div className="top-container">
-        <div className="icon"></div>
+        <Link to="/profile" className="icon"></Link>
         <div className="name-wrapper">
-          <p>Username</p>
+          <Link to="/profile">Username</Link> <br/>
           <span>Liked</span>
         </div>
       </div>
