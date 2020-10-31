@@ -22,7 +22,7 @@ function Profile() {
             <div className="social-media">
               <div className="icon-and-name">
                 <div className="icon-social"></div>
-                <p>Social Name</p>
+                <p>Instagram</p>
               </div>
               <Link to="/profile">
                 <MdAdd />
@@ -32,7 +32,7 @@ function Profile() {
             <div className="social-media">
               <div className="icon-and-name">
                 <div className="icon-social"></div>
-                <p>Social Name</p>
+                <p>Facebook</p>
               </div>
               <Link to="/profile">
                 <MdAdd />
@@ -42,7 +42,7 @@ function Profile() {
             <div className="social-media">
               <div className="icon-and-name">
                 <div className="icon-social"></div>
-                <p>Social Name</p>
+                <p>Twitter</p>
               </div>
               <Link to="/profile">
                 <MdAdd />
@@ -83,7 +83,7 @@ function Profile() {
             <div className="icon-statistics"></div>
             <div className="statistics-information">
             <p>999</p>
-            <span>Follows</span>
+            <span>Following</span>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ function Profile() {
             <div className="icon-statistics"></div>
             <div className="statistics-information">
             <p>999</p>
-            <span>Follows</span>
+            <span>Nouttes</span>
             </div>
           </div>
           

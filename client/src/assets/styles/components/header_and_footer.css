@@ -17,11 +17,11 @@ header {
   margin-bottom: 40px;
 }
 
-header .logo {
-  background-color: var(--primary-color);
-  height: 30px;
-  width: 60px;
+header .logo a{
   cursor: pointer;
+  font-size: 20px;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 header .icon-profile {

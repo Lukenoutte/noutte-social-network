@@ -7,13 +7,13 @@ export default function CardNoutte() {
       <div className="top-container">
         <div className="icon"></div>
         <div className="name-wrapper">
-          <p>Lucas Lima</p>
-          <span>Liked</span>         
-        </div>   
+          <p>Username</p>
+          <span>Liked</span>
+        </div>
       </div>
       <div className="image-container"></div>
       <div className="button-wrapper">
-      <button> Perform task</button>
+        <button> Read Noutte</button>
       </div>
     </div>
   );

@@ -27,6 +27,7 @@
   margin-bottom: 30px;
   height: 360px;
   width: 290px;
+  max-width: 290px;
   background: var(--secundary-color);
   border-radius: 15px;
   padding: 15px;
@@ -113,8 +114,9 @@
   margin-right: 60px;
 }
 
-.profile-container .middle-container .inputs-wrapper{
-  width: min-content;
+.profile-container .middle-container .inputs-wrapper {
+  width: 100%;
+  max-width: 700px;
 }
 
 .profile-container .middle-container p {
@@ -125,7 +127,7 @@
 }
 
 .profile-container .middle-container input {
-  width: 430px;
+  width: 100%;
   height: 50px;
   border-radius: 15px;
   outline: none;
@@ -151,9 +153,8 @@
   cursor: pointer;
 }
 
-
 .profile-container .middle-container button:hover {
-    background: var(--primary-color);
+  background: var(--primary-color);
 }
 
 .profile-container .right-container {
@@ -161,18 +162,18 @@
   padding-top: 50px;
 }
 
-.right-container .statistics-wrapper span{
+.right-container .statistics-wrapper span {
   color: var(--font-color-secondary);
-  font-size: 13px;  
- 
+  font-size: 13px;
 }
 
 .profile-container .right-container .statistics-wrapper {
-  width: min-content;
+  width: 100%;
+  max-width: 700px;
 }
 
 .profile-container .right-container .statistic {
-  width: 340px;
+  width: 100%;
   height: 90px;
   background: var(--secundary-color);
   border-radius: 15px;
@@ -184,30 +185,29 @@
   margin-top: 10px;
 }
 
-.statistics-wrapper .statistic .icon-statistics{
-    height: 50px;
-    width: 50px;
-    background: #FFF;
-    border-radius: 15px;
-    margin-right: 10px;
-    align-self: center;
+.statistics-wrapper .statistic .icon-statistics {
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border-radius: 15px;
+  margin-right: 10px;
+  align-self: center;
 }
-.statistics-wrapper .statistic .statistics-information{
-   margin-top: 20px;
+.statistics-wrapper .statistic .statistics-information {
+  margin-top: 20px;
 }
 .statistic .statistics-information p {
-    
-    font-size: 20px;
+  font-size: 20px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1024px) {
   .centralize-profile-container {
     flex-direction: column;
     align-items: center;
   }
 
   .profile-container .left-container {
-    width: 80%;
+    width: 95%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -217,7 +217,7 @@
   .profile-container .right-container {
     padding-left: 0px;
     padding-top: 0px;
-    width: 80%;
+    width: 95%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -226,9 +226,21 @@
 
   .profile-container .middle-container {
     margin-right: 0px;
-    width: 80%;
+    width: 95%;
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  .profile-container .middle-container input,
+  .profile-container .right-container .statistic,
+  .left-container .social-wrapper .social-media,
+  .left-container .social-wrapper{
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .profile-container .left-container .profile-pic-wrapper {
+    width: 100%;
   }
 }

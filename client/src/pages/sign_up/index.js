@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 function SignUp() {
     return (<div className="sign-container sign-up"> 
-            <div className="navegation-container-sign">
+            <div className="navegation-container-sign sign-up-navegation">
 
             <h1>Welcome back!</h1>
             <Link to="/">Sign in</Link> <br/>

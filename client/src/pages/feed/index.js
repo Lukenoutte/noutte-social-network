@@ -4,13 +4,14 @@ import CardNoutte from "../components/CardNoutte";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+
 function Feed() {
   return (
     <div className="feed-container">
       <Header />
       <div className="centralize-things-container">
         <div className="before-nouttes">
-          <h1>Nouttes</h1>
+          <h1>Feed</h1>
           <button> + Create Noutte </button>
         </div>
         <div className="wrapper-n-container">
