@@ -6,10 +6,6 @@ Estudo na criação de uma interface responsiva para uma rede social.
 
 - React js
 
-## 🚀 Site Demo
-
-- https://noutte.netlify.app
-
 ## ✅ Requisitos
 
 Antes de iniciar, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalados.
